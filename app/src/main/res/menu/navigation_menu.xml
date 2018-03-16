@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/nav_account"
-        android:title="Home"/>
 
-    <item android:id="@+id/nav_account"
-        android:title="Attendance"/>
 
-    <item android:id="@+id/nav_account"
-        android:title="Attendance"/>
+    <item android:id="@+id/nav_feeds"
+        android:title="News Feed"
+        android:icon="@drawable/ic_feed" />
 
-    <item android:id="@+id/nav_account"
-        android:title="Marks and result"/>
+    <item android:id="@+id/nav_Attendance"
+        android:title="Attendance"
+        android:icon="@drawable/ic_atd" />
 
-    <item android:id="@+id/nav_account"
-        android:title="Documentation"/>
+    <item android:id="@+id/nav_marks"
+        android:title="Marks and result"
+        android:icon="@drawable/ic_marks" />
 
-    <item android:id="@+id/nav_account"
-        android:title="Documentation"/>
+    <item android:id="@+id/nav_document"
+        android:title="Documentation"
+        android:icon="@drawable/ic_doc" />
 
-    <item android:id="@+id/nav_account"
-        android:title="Documentation"/>
+    <item android:id="@+id/nav_library"
+        android:title="Library Record"
+        android:icon="@drawable/ic_lib" />
 
-    <item android:id="@+id/nav_account"
-        android:title="Documentation"/>
 
-    <item android:id="@+id/nav_account"
-        android:title="Documentation"/>
+    <item android:id="@+id/nav_passwordch"
+        android:title="Change Password"
+        android:icon="@drawable/ic_pas" />
+    <item android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_two" />
 
 
 
